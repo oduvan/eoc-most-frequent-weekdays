@@ -1,0 +1,30 @@
+
+export function mostFrequentDays(a) {
+
+    // your code here
+    return undefined;
+}
+
+import * as assert from 'assert';
+console.log('Example:');
+console.log(mostFrequentDays(1084));
+
+// These "asserts" are used for self-checking
+assert.deepEqual(mostFrequentDays(1084), ['Tuesday', 'Wednesday']);
+assert.deepEqual(mostFrequentDays(1167), ['Sunday']);
+assert.deepEqual(mostFrequentDays(1216), ['Friday', 'Saturday']);
+assert.deepEqual(mostFrequentDays(1492), ['Friday', 'Saturday']);
+assert.deepEqual(mostFrequentDays(1770), ['Monday']);
+assert.deepEqual(mostFrequentDays(1785), ['Saturday']);
+assert.deepEqual(mostFrequentDays(212), ['Wednesday', 'Thursday']);
+assert.deepEqual(mostFrequentDays(1), ['Monday']);
+assert.deepEqual(mostFrequentDays(2135), ['Saturday']);
+assert.deepEqual(mostFrequentDays(3043), ['Sunday']);
+assert.deepEqual(mostFrequentDays(2001), ['Monday']);
+assert.deepEqual(mostFrequentDays(3150), ['Sunday']);
+assert.deepEqual(mostFrequentDays(3230), ['Tuesday']);
+assert.deepEqual(mostFrequentDays(328), ['Monday', 'Sunday']);
+assert.deepEqual(mostFrequentDays(2016), ['Friday', 'Saturday']);
+
+console.log("Coding complete? Click 'Check' to earn cool rewards!");
+    
