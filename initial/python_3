@@ -1,3 +1,5 @@
+WEEKDAYS = ['Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Friday', 'Saturday', 'Sunday'];
+
 def most_frequent_days(a):
     # your code here
     return None
